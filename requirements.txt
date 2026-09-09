@@ -1,0 +1,21 @@
+requests>=2.31
+pandas>=2.2
+numpy>=1.26
+# --- Graph store ---
+neo4j>=5.20          # official Python driver for loading/querying the KG
+
+# --- Datalog rule engine ---
+pyDatalog>=0.17      # pure-Python Datalog; swap for a Souffle wrapper if you go that route instead
+
+# --- KG embeddings ---
+pykeen>=1.10
+torch>=2.2
+# --- Visualization / analysis ---
+matplotlib>=3.8
+plotly>=5.20
+
+# --- Notebooks ---
+jupyter>=1.0
+
+# --- Config / env ---
+python-dotenv>=1.0
